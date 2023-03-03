@@ -40,8 +40,8 @@ i > span {
   font-weight: bolder;
 }
 
-.hero > img {
-  max-width: 30%;
+.hero-img {
+  max-width: 100%;
 
 }
 
@@ -71,11 +71,14 @@ i > span {
   }
   .hero-text {
     order: 1;
-    font-size: 1.5em;
+    font-size: 2em;
+    max-width: 80%;
+    text-align: center;
   }
   .hero-img{
     order: 2;
-    
+    margin-top: 20px;
+    max-width: 60%;
  
   }
 

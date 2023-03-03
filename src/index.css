@@ -53,6 +53,26 @@ i > span {
   color: white;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero{
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-text {
+    order: 1;
+    font-size: 2em;
+  }
+  .hero-img{
+    order: 2;
+  }
+
+  .hero-btn > button{
+    font-size: 2em;
+    padding: 15px 25px;
+  }
 }
 
 

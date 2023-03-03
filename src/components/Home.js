@@ -15,7 +15,7 @@ const Home = () => {
             <span> MEMES</span>
           </i>
         </h1>
-        <img src={hero} alt="cheems" />
+        <img className="hero-img" src={hero} alt="cheems" />
       </div>
 
       <div className="hero-btn">
